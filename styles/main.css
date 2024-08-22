@@ -1,0 +1,19 @@
+.card {
+    background-color: #f5f5dc !important;
+    border-style: dashed !important;
+}
+
+.card h5 {
+    font-weight: bold!important;
+}
+
+button {
+    outline-color: #185558!important;
+    border-color: #185558!important;
+    background-color: #185558!important;
+}
+
+.order {
+    border-style: dashed !important;
+    background-color: #f0f8ff;
+}
