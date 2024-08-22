@@ -94,6 +94,13 @@
       "wheelsId": 3,
       "technologiesId": 2,
       "id": 1
+    },
+    {
+      "colorsId": 1,
+      "interiorsId": 3,
+      "wheelsId": 3,
+      "technologiesId": 4,
+      "id": 2
     }
   ]
 }

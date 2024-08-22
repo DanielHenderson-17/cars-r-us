@@ -6,7 +6,7 @@ export const OrderList = async () => {
         const orderPrice = order.colors.price + order.interiors.price + order.wheels.price + order.technologies.price;
         const orderDescription = `${order.colors.color} car with ${order.wheels.type} wheels, ${order.interiors.type} interior, and the ${order.technologies.type} package for a total cost of $${orderPrice.toFixed(2)}`;
 
-        return `<div class="p-3 order ms-5 w-75">${orderDescription}</div>`;
+        return `<div class="p-3 order ms-5 w-75 my-2">${orderDescription}</div>`;
     }).join("");
 
     return ordersHTML;
